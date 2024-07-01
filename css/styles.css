@@ -16,20 +16,8 @@ a {
   text-decoration: none;
 }
 
-button {
+.button {
   cursor: pointer;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  overflow: hidden;
 }
 
 /*---------Header-------*/
@@ -139,7 +127,7 @@ button {
 /*---------Our Team-------*/
 
 .team {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
 
 .team-title {
@@ -151,6 +139,7 @@ button {
   color: #2e2f42;
 }
 .team-list {
+  background-color: #ffffff;
 }
 .team-item {
 }
@@ -187,12 +176,16 @@ button {
   text-transform: capitalize;
   color: #2e2f42;
 }
+
 .portfolio-list {
 }
+
 .portfolio-item {
 }
+
 .portfolio-imgage {
 }
+
 .portfolio-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -200,6 +193,7 @@ button {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .portfolio-text {
   font-size: 16px;
   line-height: 1.5;
